@@ -1,0 +1,153 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+INFO:root:Read input files : elapsed seconds: 13.6834
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 1): elapsed seconds: 41.6631
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 1): elapsed seconds: 34.618
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|       1687609|  138510.26|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 1): elapsed seconds: 2.9652
++--------------+---------------+
+|ss_customer_sk|    amountSpent|
++--------------+---------------+
+|          NULL|2.90858950667E9|
++--------------+---------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 1): elapsed seconds: 2.7266
++------------+-----------+------------------+
+|c_first_name|c_last_name|       amountSpent|
++------------+-----------+------------------+
+|     Michael|     Thorne|339502.49999999994|
++------------+-----------+------------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 1): elapsed seconds: 14.2289
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 2): elapsed seconds: 0.8498
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 2): elapsed seconds: 1.4027
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|       1822381|   81631.56|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 2): elapsed seconds: 1.4784
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|2.9085895066699996E9|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 2): elapsed seconds: 1.8042
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|     Michael|     Thorne|339502.5000000002|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 2): elapsed seconds: 11.7321
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 3): elapsed seconds: 0.6046
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 3): elapsed seconds: 1.216
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|        355419|   83367.97|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 3): elapsed seconds: 1.2518
++--------------+-------------------+
+|ss_customer_sk|        amountSpent|
++--------------+-------------------+
+|          NULL|2.908589506669999E9|
++--------------+-------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 3): elapsed seconds: 1.5782
++------------+-----------+-----------+
+|c_first_name|c_last_name|amountSpent|
++------------+-----------+-----------+
+|     Michael|     Thorne|   339502.5|
++------------+-----------+-----------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 3): elapsed seconds: 11.5657
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 4): elapsed seconds: 0.6153
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 4): elapsed seconds: 1.2467
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|        859308|   94002.32|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 4): elapsed seconds: 1.1632
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|2.9085895066700006E9|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 4): elapsed seconds: 1.5577
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|     Michael|     Thorne|339502.5000000001|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 4): elapsed seconds: 12.2175
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 5): elapsed seconds: 1.0051
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 5): elapsed seconds: 1.2266
++--------------+-----------------+
+|ss_customer_sk|      amountSpent|
++--------------+-----------------+
+|       1136547|77611.48000000001|
++--------------+-----------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 5): elapsed seconds: 1.6109
++--------------+-------------------+
+|ss_customer_sk|        amountSpent|
++--------------+-------------------+
+|          NULL|2.908589506669999E9|
++--------------+-------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 5): elapsed seconds: 1.571
++------------+-----------+-----------+
+|c_first_name|c_last_name|amountSpent|
++------------+-----------+-----------+
+|     Michael|     Thorne|   339502.5|
++------------+-----------+-----------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 5): elapsed seconds: 12.8708
+INFO:py4j.clientserver:Closing down clientserver connection

@@ -1,0 +1,153 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+INFO:root:Read input files : elapsed seconds: 20.6513
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 1): elapsed seconds: 40.9064
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 1): elapsed seconds: 68.6952
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|        566723|   51487.55|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 1): elapsed seconds: 7.2525
++--------------+-------------------+
+|ss_customer_sk|        amountSpent|
++--------------+-------------------+
+|          NULL|5.813846499729999E9|
++--------------+-------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 1): elapsed seconds: 5.8235
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|      Carrie|   Reynolds|569686.1900000003|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 1): elapsed seconds: 24.2064
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 2): elapsed seconds: 2.9691
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 2): elapsed seconds: 2.1032
++--------------+------------------+
+|ss_customer_sk|       amountSpent|
++--------------+------------------+
+|        250235|198991.12000000002|
++--------------+------------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 2): elapsed seconds: 2.8589
++--------------+-------------------+
+|ss_customer_sk|        amountSpent|
++--------------+-------------------+
+|          NULL|5.813846499730002E9|
++--------------+-------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 2): elapsed seconds: 3.7397
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|      Carrie|   Reynolds|569686.1900000001|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 2): elapsed seconds: 24.894
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 3): elapsed seconds: 8.8585
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 3): elapsed seconds: 3.3309
++--------------+------------------+
+|ss_customer_sk|       amountSpent|
++--------------+------------------+
+|        920750|145944.24000000002|
++--------------+------------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 3): elapsed seconds: 2.9414
++--------------+-------------------+
+|ss_customer_sk|        amountSpent|
++--------------+-------------------+
+|          NULL|5.813846499730001E9|
++--------------+-------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 3): elapsed seconds: 3.8769
++------------+-----------+-----------+
+|c_first_name|c_last_name|amountSpent|
++------------+-----------+-----------+
+|      Carrie|   Reynolds|  569686.19|
++------------+-----------+-----------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 3): elapsed seconds: 21.6529
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 4): elapsed seconds: 0.7089
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 4): elapsed seconds: 2.5815
++--------------+-----------------+
+|ss_customer_sk|      amountSpent|
++--------------+-----------------+
+|        926877|92255.59999999999|
++--------------+-----------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 4): elapsed seconds: 2.7108
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|5.8138464997300005E9|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 4): elapsed seconds: 4.0013
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|      Carrie|   Reynolds|569686.1899999997|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 4): elapsed seconds: 24.7217
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 5): elapsed seconds: 0.7635
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 5): elapsed seconds: 1.9488
++--------------+------------------+
+|ss_customer_sk|       amountSpent|
++--------------+------------------+
+|        250235|198991.12000000002|
++--------------+------------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 5): elapsed seconds: 2.7758
++--------------+-------------------+
+|ss_customer_sk|        amountSpent|
++--------------+-------------------+
+|          NULL|5.813846499730001E9|
++--------------+-------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 5): elapsed seconds: 3.2882
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|      Carrie|   Reynolds|569686.1900000001|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 5): elapsed seconds: 18.9731
+INFO:py4j.clientserver:Closing down clientserver connection

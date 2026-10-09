@@ -1,0 +1,138 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+INFO:root:Read input files : elapsed seconds: 55.7198
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 1): elapsed seconds: 43.4553
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 1): elapsed seconds: 249.54
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|       1597481|  296960.79|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 1): elapsed seconds: 15.1013
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|2.327935359937999...|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 1): elapsed seconds: 14.0697
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|        John|     Zepeda|636680.1600000001|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 1): elapsed seconds: 55.9051
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 2): elapsed seconds: 0.7612
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 2): elapsed seconds: 6.5492
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|       1254390|   171059.8|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 2): elapsed seconds: 12.4847
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|2.327935359938001E10|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 2): elapsed seconds: 12.4827
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|        John|     Zepeda|636680.1600000004|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 2): elapsed seconds: 47.1419
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 3): elapsed seconds: 0.667
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 3): elapsed seconds: 5.9808
++--------------+------------------+
+|ss_customer_sk|       amountSpent|
++--------------+------------------+
+|       2781305|206058.78999999998|
++--------------+------------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 3): elapsed seconds: 11.1236
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|2.327935359937998...|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 3): elapsed seconds: 12.6996
++------------+-----------+-----------+
+|c_first_name|c_last_name|amountSpent|
++------------+-----------+-----------+
+|        John|     Zepeda|  636680.16|
++------------+-----------+-----------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 3): elapsed seconds: 47.2431
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 4): elapsed seconds: 0.5805
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 4): elapsed seconds: 6.2976
++--------------+------------------+
+|ss_customer_sk|       amountSpent|
++--------------+------------------+
+|       3812573|245800.29000000007|
++--------------+------------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 4): elapsed seconds: 12.0333
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|2.327935359938000...|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 4): elapsed seconds: 12.4741
++------------+-----------+-----------------+
+|c_first_name|c_last_name|      amountSpent|
++------------+-----------+-----------------+
+|        John|     Zepeda|636680.1600000001|
++------------+-----------+-----------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 4): elapsed seconds: 47.1526
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 5): elapsed seconds: 0.5627
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 5): elapsed seconds: 6.0768
++--------------+-----------------+
+|ss_customer_sk|      amountSpent|
++--------------+-----------------+
+|        942750|86169.04999999999|
++--------------+-----------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 5): elapsed seconds: 11.6299

@@ -1,0 +1,153 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+INFO:root:Read input files : elapsed seconds: 49.6265
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 1): elapsed seconds: 47.2217
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 1): elapsed seconds: 131.3813
++--------------+------------------+
+|ss_customer_sk|       amountSpent|
++--------------+------------------+
+|         42834|508104.86999999994|
++--------------+------------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 1): elapsed seconds: 10.1598
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|1.164008557559000...|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 1): elapsed seconds: 7.1732
++------------+-----------+------------------+
+|c_first_name|c_last_name|       amountSpent|
++------------+-----------+------------------+
+|       Danny|    Sanders|1016623.7000000004|
++------------+-----------+------------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 1): elapsed seconds: 29.8727
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 2): elapsed seconds: 0.6485
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 2): elapsed seconds: 5.3729
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|        474012|  633351.04|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 2): elapsed seconds: 5.4635
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|1.164008557559000...|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 2): elapsed seconds: 6.7372
++------------+-----------+------------------+
+|c_first_name|c_last_name|       amountSpent|
++------------+-----------+------------------+
+|       Danny|    Sanders|1016623.7000000002|
++------------+-----------+------------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 2): elapsed seconds: 33.0378
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 3): elapsed seconds: 0.8698
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 3): elapsed seconds: 3.9714
++--------------+-----------------+
+|ss_customer_sk|      amountSpent|
++--------------+-----------------+
+|        474012|633351.0399999999|
++--------------+-----------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 3): elapsed seconds: 5.9709
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|1.164008557559001E10|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 3): elapsed seconds: 6.8497
++------------+-----------+------------------+
+|c_first_name|c_last_name|       amountSpent|
++------------+-----------+------------------+
+|       Danny|    Sanders|1016623.7000000009|
++------------+-----------+------------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 3): elapsed seconds: 28.5971
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 4): elapsed seconds: 0.9555
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 4): elapsed seconds: 3.5769
++--------------+-----------+
+|ss_customer_sk|amountSpent|
++--------------+-----------+
+|        640746|  451969.92|
++--------------+-----------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 4): elapsed seconds: 5.9384
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|1.164008557558999...|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 4): elapsed seconds: 6.0992
++------------+-----------+------------------+
+|c_first_name|c_last_name|       amountSpent|
++------------+-----------+------------------+
+|       Danny|    Sanders|1016623.7000000008|
++------------+-----------+------------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 4): elapsed seconds: 29.3651
+Number of customers: 65000000
+INFO:root:Query q1 (iteration 5): elapsed seconds: 0.6347
++--------------+
+|max_list_price|
++--------------+
+|         200.0|
++--------------+
+
+INFO:root:Query q2 (iteration 5): elapsed seconds: 3.6705
++--------------+------------------+
+|ss_customer_sk|       amountSpent|
++--------------+------------------+
+|         49855|495705.32999999996|
++--------------+------------------+
+only showing top 1 row
+INFO:root:Query q3 (iteration 5): elapsed seconds: 5.9087
++--------------+--------------------+
+|ss_customer_sk|         amountSpent|
++--------------+--------------------+
+|          NULL|1.164008557558999...|
++--------------+--------------------+
+only showing top 1 row
+INFO:root:Query q4 (iteration 5): elapsed seconds: 6.7489
++------------+-----------+------------------+
+|c_first_name|c_last_name|       amountSpent|
++------------+-----------+------------------+
+|       Danny|    Sanders|1016623.7000000004|
++------------+-----------+------------------+
+only showing top 1 row
+INFO:root:Query 5 (iteration 5): elapsed seconds: 27.9834
+INFO:py4j.clientserver:Closing down clientserver connection
